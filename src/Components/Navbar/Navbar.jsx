@@ -1,10 +1,19 @@
-import React, { useEffect, useState } from 'react'
+// import React, { useEffect, useState } from 'react'
 import "./Navbar.css";
-import axios from 'axios';
+// import axios from 'axios';
 
 
 export default function Navbar() {
-//   GET
+
+
+
+
+
+
+
+
+
+    //   GET
 
 
 //     const [data, setData] = useState([])
@@ -68,98 +77,28 @@ export default function Navbar() {
 
     // UPDATE
 
-    const [data, setData] = useState([])
-    useEffect(() => {
-        axios.get('https://reqres.in/api/users?page=2')
-            .then(res => setData(res.data.data))
-            .catch(err => console.log(err));
-    }, [])
+    // const [data, setData] = useState([])
+    // useEffect(() => {
+    //     axios.get('https://reqres.in/api/users?page=2')
+    //         .then(res => setData(res.data.data))
+    //         .catch(err => console.log(err));
+    // }, [])
 
 
-    return (
-        <>
-            <h2>Axios Library</h2>
-            {
-                data.map((d, i) => {
-                    return <p key={i}>{d.first_name}</p>
+    // return (
+    //     <>
+    //         <h2>Axios Library</h2>
+    //         {
+    //             data.map((d, i) => {
+    //                 return <p key={i}>{d.first_name}</p>
 
-                })
-            }
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
-            <h3>Local ctorage</h3>
+    //             })
+    //         }
 
 
-        </>
-    )
+
+    //     </>
+    // )
 
 
 
