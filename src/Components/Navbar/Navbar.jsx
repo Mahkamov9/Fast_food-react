@@ -1,44 +1,36 @@
-// import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import "./Navbar.css";
-// import axios from 'axios';
+import axios from 'axios';
 
 
 export default function Navbar() {
-
-
-
-
-
-
-
-
-
     //   GET
 
 
-//     const [data, setData] = useState([])
-//     useEffect(() =>{
-//         axios.get('https://reqres.in/api/users?page=2')
-//         .then(res => setData(res.data.data))
-//         .catch(err => console.log(err));
-//     }, [])
+    const [data, setData] = useState([])
+    useEffect(() =>{
+        await fetch('https://www.google.com/')
+        .then(res => res.json())
+        .then(data => console.log(data))
+        // .catch(err => console.log(err));
+    }, [])
 
 
-//     return(
-//       <>
-//         <h2>Axios Library</h2>
-//         {
-//             data.map((d, i) =>{
-//                 return <p key={i}>{d.last_name}</p>
-//             })
-//         }
-//         {
-//             data.map((d, i) =>{
-//                 return <h1 key={i}>{d.first_name}</h1>
-//             })
-//         }
-//       </>
-//   )
+    return(
+      <>
+        <h2>Axios Library</h2>
+        {
+            data.map((d, i) =>{
+                return <p key={i}>{d.last_name}</p>
+            })
+        }
+        {
+            data.map((d, i) =>{
+                return <h1 key={i}>{d.first_name}</h1>
+            })
+        }
+      </>
+  )
 
 
 
