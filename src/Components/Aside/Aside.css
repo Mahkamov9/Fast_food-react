@@ -2,10 +2,11 @@
 .aside-box{
     display: flex;
     justify-content: space-between;
+    height: 100vh;
 }
 
 
-/*  */
+/*     R     I     G     H     T      */
 
 
 .aside-right{
@@ -13,7 +14,57 @@
     background-color: blue;
 }
 
+.aside-sale-box1{
+    margin-left: 60px;
+    margin-top: -50px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+}
 
+.aside-sale-box-text{
+    margin-top: -20px;
+    font-size: 70px;
+}
+
+.aside-right-title-box{
+    padding: 50px;
+    color: #fff;
+}
+
+.aside-right-subtitle{
+    font-size: 30px;
+}
+
+.aside-right-title{
+    margin: 20px 0px;
+    line-height: 100%;
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+
+.aside-box-link{
+    background-color: #fff;
+    padding: 15px 30px;
+    border-radius: 25px;
+    color: rgb(222, 148, 30);
+    letter-spacing: 3px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.aside-box-link:hover{
+    color: #E63945;
+}
 
 
 
@@ -40,9 +91,11 @@
 
 
 .aside-left-top{
+    height: 50vh;
     background-color: aqua;
 }
 
 .aside-left-bottom{
+    height: 50vh;
     background-color: aquamarine;
 }
