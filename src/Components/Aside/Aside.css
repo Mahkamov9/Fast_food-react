@@ -1,0 +1,48 @@
+
+.aside-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*  */
+
+
+.aside-right{
+    width: 50%;
+    background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*     L  E  F  T       */
+
+
+.aside-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.aside-left-top{
+    background-color: aqua;
+}
+
+.aside-left-bottom{
+    background-color: aquamarine;
+}

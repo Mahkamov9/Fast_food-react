@@ -1,8 +1,91 @@
 .header{
     background-color: #E63945;
+    height: 150vh;
 }
 
 .header-box{
     display: flex;
     justify-content: space-between;
+}
+
+.header-right{
+    margin-top: 100px;
+    position: relative;
+}
+
+.header-left{
+    position: relative;
+}
+
+.header-price , .header-title{
+    font-size: 1.52rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.header-title{
+    width: 600px;
+    margin-top: 15px;
+    line-height: 0.8em;
+    font-size: 125px;
+}
+
+
+.header-sale-box{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    background-color: #F4A733;
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 50%;
+    left: -50px;
+    /* margin-top: 25px; */
+}
+
+.header-sale-box-num{
+    font-size: 70px;
+    margin-bottom: -20px;
+}
+
+
+.header-sale-title{
+    position: absolute;
+    padding-top: 50px;
+    margin-top: 20px;
+    margin-left: 130px;
+    font-size: 35px;
+    width: 250px;
+    color: #fff;
+    font-weight: bold;
+
+}
+
+.heder-order-link{
+    bottom: -400px;
+    left: 120px;
+    position: absolute;
+    color: rgb(222, 148, 30);
+    font-weight: bold;
+    background-color: #fff;
+    padding: 10px 30px;
+    border-radius: 25px;
+    transition: 0.4s;
+}
+
+.heder-order-link:hover{
+    color: #E63945;
+}
+
+.header-img{
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    transform: translate(-90% , 10%);
+    z-index: 1;
 }

@@ -1,6 +1,7 @@
 
 
 .navbar-list{
+    z-index: 2;
     display: flex;
     justify-content: space-between;
     padding: 30px 50px;
@@ -27,9 +28,11 @@
     border-radius: 25px;
     padding: 10px 25px;
     color: rgb(222, 148, 30);
+    transition: 0.3s;
 }
 
 .nav-link:nth-child(7):hover{
     color: #E63945;
-    transition: 0.3s;
 }
+
+
