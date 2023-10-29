@@ -1,3 +1,35 @@
-h1{
-    color: red;
+
+
+.navbar-list{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+
+.nav-link{
+    margin-left: 25px;
+    color: #ffffffaa;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    transition: 0.3s;
+    color: #fff;
+}
+
+.nav-link:nth-child(1){
+    color: #fff;
+}
+
+.nav-link:nth-child(7){
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 10px 25px;
+    color: rgb(222, 148, 30);
+}
+
+.nav-link:nth-child(7):hover{
+    color: #E63945;
+    transition: 0.3s;
 }
