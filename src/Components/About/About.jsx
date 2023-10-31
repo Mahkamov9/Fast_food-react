@@ -4,71 +4,7 @@
  export default function About() {
    return (
      <div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-     <div>About</div>
-
-
+        <h1>About</h1>
      </div>
    )
  }
