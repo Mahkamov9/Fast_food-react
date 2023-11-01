@@ -7,8 +7,13 @@
       <div className="about">
         <div className="container">
           <div className="about-box">
-            <h1>Salom</h1>
-            <h1>Salom</h1>
+            <h3>Ingredients</h3>
+            <p>Baked with Natural Ingredients</p>
+            <div className='about-list'>
+              <div className="about-item"></div>
+              <div className="about-item"></div>
+              <div className="about-item"></div>
+            </div>
           </div>
         </div>
       </div>
