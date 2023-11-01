@@ -2,3 +2,21 @@
     background-color: #FAAB34;
 }
 
+.about-text-box{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.about-text-box h3{
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 5px;
+}
+
+.about-text-box p{
+    margin: 30px 0px;
+    font-size: 60px;
+    color: #fff;
+    line-height: 50px;
+    font-weight: bold;
+}
