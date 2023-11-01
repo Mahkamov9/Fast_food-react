@@ -1,5 +1,6 @@
 import React from 'react'
 import "./About.css";
+import burger01 from "../../Assets/Img/burger01.png";
 
 export default function About() {
   return (
@@ -13,13 +14,36 @@ export default function About() {
             </div>
             <div className='about-list'>
               <div className="about-item">
-                <p>Fresh Buns</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                <div>
+                  <p>Fresh Buns</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                </div>
+                <div>
+                  <p>Lettuce Leaf</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                </div>
+                <div>
+                  <p>Organic Onions</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                </div>
               </div>
               <div className="about-item">
-                <img src="" alt="" />
+                <img src={burger01} alt="wer" />
               </div>
-              <div className="about-item"></div>
+              <div className="about-item">
+              <div>
+                  <p>Fresh Buns</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                </div>
+                <div>
+                  <p>Lettuce Leaf</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                </div>
+                <div>
+                  <p>Organic Onions</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

@@ -20,3 +20,30 @@
     line-height: 50px;
     font-weight: bold;
 }
+
+
+
+.about-list{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-item{
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.about-item:nth-child(3){
+    text-align: end;
+}
+
+.about-item div{
+    margin: 60px 0px;
+}
+
+.about-item p:nth-child(2){
+    margin-top: 10px;
+    width: 300px;
+}
