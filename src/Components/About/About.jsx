@@ -31,7 +31,7 @@ export default function About() {
                 <img src={burger01} alt="wer" />
               </div>
               <div className="about-item">
-              <div>
+                <div>
                   <p>Fresh Buns</p>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
                 </div>
