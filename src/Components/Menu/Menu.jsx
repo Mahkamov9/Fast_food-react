@@ -48,6 +48,8 @@ export default function Menu() {
     <div>Menu</div>
     <div>Menu</div>
     <div>Menu</div>
+    <div>Menu</div>
+    <div>Menu</div>
 
     </>
   )
