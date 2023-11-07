@@ -11,6 +11,7 @@ export default function Menu() {
           <div className='card-box'>
             <h1>Card Hold</h1>
             <h1>Card Hold</h1>
+            <h1>Card Hold</h1>
           </div>
         </div>
       </div>
