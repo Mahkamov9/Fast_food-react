@@ -6,7 +6,8 @@ export default function Menu() {
     <>
       <div className="menu">
         <div className="container">
-          
+          <h1 className='menu-subtext'></h1>
+          <p className='menu-text'></p>
         </div>
       </div>
     </>
