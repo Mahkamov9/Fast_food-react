@@ -9,7 +9,8 @@ export default function Menu() {
           <h1 className='menu-subtext'></h1>
           <p className='menu-text'></p>
           <div className='card-box'>
-            
+            <h1>Card Hold</h1>
+            <h1>Card Hold</h1>
           </div>
         </div>
       </div>
