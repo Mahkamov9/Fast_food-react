@@ -16,6 +16,8 @@ export default function Menu() {
             <h1>Card Hold</h1>
             <h1>Card Hold</h1>
             <h1>Card Hold</h1>
+            <h1>Card Hold</h1>
+            <h1>Card Hold</h1>
           </div>
         </div>
       </div>
