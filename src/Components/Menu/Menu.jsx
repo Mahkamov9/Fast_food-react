@@ -3,7 +3,7 @@ import "./Menu.css"
 
 export default function Menu() {
   return (
-    <>
+    <div>
     <div>Menu</div>
     <div>Menu</div>
     <div>Menu</div>
@@ -159,6 +159,10 @@ export default function Menu() {
     <div>Menu</div>
     <div>Menu</div>
     <div>Menu</div>
+    <div>Menu</div>
+    <div>Menu</div>
+    <div>Menu</div>
+
 
     </>
   )
