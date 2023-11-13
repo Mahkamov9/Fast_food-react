@@ -67,6 +67,8 @@ export default function Menu() {
                 </form>
               </div>
             <div className="contact_right">
+              <h1>Ssss</h1>
+              <h1>Ssss</h1>
               {/* <img className="contact_img" src={CImg} alt="pic" /> */}
             </div>
           </div>
