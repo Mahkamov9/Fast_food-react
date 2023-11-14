@@ -120,6 +120,8 @@ export default function Menu() {
               <h1>Ssss</h1>
               <h1>Ssss</h1>
               <h1>Ssss</h1>
+              <h1>Ssss</h1>
+              <h1>Ssss</h1>
               {/* <img className="contact_img" src={CImg} alt="pic" /> */}
             </div>
           </div>
