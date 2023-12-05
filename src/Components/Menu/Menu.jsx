@@ -15,6 +15,9 @@ export default function Menu() {
             <h1>Thank You</h1>
             <h1>Thank You</h1>
             <h1>Thank You</h1>
+            <h1>Thank You</h1>
+            <h1>Thank You</h1>
+            <h1>Thank You</h1>
         </>
     )
 }
