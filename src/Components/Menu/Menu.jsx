@@ -6,6 +6,7 @@ export default function Menu() {
     return (
         <>
              git checkout main
+             main
         </>
 
 
