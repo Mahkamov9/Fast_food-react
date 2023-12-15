@@ -5,7 +5,9 @@ import "./Menu.css";
 export default function Menu() {
     return (
         <>
-             git checkout main
+             main
+             main
+             main
              main
              main
              main
