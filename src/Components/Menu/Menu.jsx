@@ -7,6 +7,9 @@ export default function Menu() {
         <>
              git checkout main
              ahadjon
+             ahadjon
+             ahadjon
+             ahadjon
         </>
 
 
