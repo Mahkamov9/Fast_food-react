@@ -5,15 +5,9 @@ import "./Menu.css";
 export default function Menu() {
     return (
         <>
-             git checkout main
              ahadjon
              ahadjon
-             ahadjon
-             ahadjon
-             ahadjon
-             ahadjon
-             ahadjon
-             ahadjon
+            asdasd
         </>
 
 
