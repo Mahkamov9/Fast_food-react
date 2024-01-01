@@ -1,4 +1,6 @@
-export default function Menu() {
+import { useState } from "react";
+
+export default function ContactCode() {
 
     const [nameValue, setNameValue] = useState("");
     const [numberValue, setNumberValue] = useState("");

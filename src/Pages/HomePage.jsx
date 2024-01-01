@@ -11,6 +11,7 @@ export default function HomePage() {
         <Aside/>
         <About/>
         <Menu/>
+      
     </>
   )
 }
