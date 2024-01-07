@@ -9,6 +9,7 @@ export default function Menu() {
             <ContactCode/>
 
             <h1>New Year</h1>
+            <h1>New Year</h1>
 
         </>
 
