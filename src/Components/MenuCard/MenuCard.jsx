@@ -13,6 +13,8 @@ export default function MenuCard() {
                     <p>$4.99</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, quod.</p>
                     <button>➕</button>
+                    <button>➕</button>
+                    <button>➕</button>
                 </div>
             </div>
         </>
