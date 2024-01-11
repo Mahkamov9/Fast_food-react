@@ -17,6 +17,8 @@ export default function MenuCard() {
                     <button>➕</button>
                     <button>➕</button>
                     <button>➕</button>
+                    <button>➕</button>
+                    <button>➕</button>
                 </div>
             </div>
         </>
