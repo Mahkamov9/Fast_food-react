@@ -1,0 +1,23 @@
+
+.menu_card{
+    max-width: 280px;
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.menu_card_box{
+    z-index: -1;
+    margin-top: 300px;
+    padding-top: 120px;
+    position: absolute;
+    max-width: 320px;
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgba(255, 255, 255, 0.525);
+}
