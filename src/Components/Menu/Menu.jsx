@@ -14,6 +14,7 @@ export default function Menu() {
                     <div className="menu_list">
                         <MenuCard/>
                         <MenuCard/>
+                        <MenuCard/>
                     </div>
                 </div>
             </div>
