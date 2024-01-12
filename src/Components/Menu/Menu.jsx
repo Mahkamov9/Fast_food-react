@@ -11,7 +11,7 @@ export default function Menu() {
                 <div className="container">
                     <h1 className='menu_title'>OUR MENU</h1>
                     <p className="menu_subtitle">Choose & Enjoy</p>
-                    <div>
+                    <div className="menu_list">
                         <MenuCard/>
                     </div>
                 </div>

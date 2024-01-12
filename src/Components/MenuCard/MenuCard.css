@@ -1,23 +1,70 @@
 
 .menu_card{
-    max-width: 280px;
+    padding: 10px 10px; 
+    max-width: 320px;
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     position: relative;
+    /* margin: 200px 0px; */
+
 }
 
 .menu_card_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
     z-index: -1;
-    margin-top: 300px;
+    margin-top: 350px;
+    padding: 10px 10px;
     padding-top: 120px;
     position: absolute;
     max-width: 320px;
     width: 100%;
-    background-color: aliceblue;
     border-radius: 10px;
-    box-shadow: 10px 10px 10px 10px rgba(255, 255, 255, 0.525);
+    transition: 0.08s;
+    background-color: #e63945;
+}
+
+.menu_card_box:hover{
+    box-shadow: 1px 1px 50px 10px rgba(0, 0, 0, 0.278);
+    background-color: rgb(255, 255, 255);
+
+}
+
+.menu_card_title{
+    font-size: 1.52rem;
+    font-weight: 700;
+}
+
+.menu_card_price{
+    font-size: 0.94rem;
+    font-style: inherit;
+    color: #e63945;
+    font-weight: 700;
+}
+
+.menu_card_text{
+    width: 100%;
+    margin-bottom: 1.6em;
+    font-weight: inherit;
+    font-style: inherit;
+}
+
+.menu_card_btn{
+    bottom: -23px;
+    position: absolute;
+    font-size: 35px;
+    color: #fff;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: #e63945;
 }
