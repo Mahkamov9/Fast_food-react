@@ -13,6 +13,7 @@ export default function Menu() {
                     <p className="menu_subtitle">Choose & Enjoy</p>
                     <div className="menu_list">
                         <MenuCard/>
+                        <MenuCard/>
                     </div>
                 </div>
             </div>
