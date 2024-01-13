@@ -23,6 +23,8 @@ export default function Menu() {
                         <MenuCard/>
                         <MenuCard/>
                         <MenuCard/>
+                        <MenuCard/>
+                        <MenuCard/>
                     </div>
                 </div>
             </div>
