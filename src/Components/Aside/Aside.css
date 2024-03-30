@@ -2,7 +2,7 @@
 .aside-box{
     display: flex;
     justify-content: space-between;
-    height: 140vh;font-size: 70px;
+    height: 140vh;font-size: 70px;font-size: 70px;
     
 }
 
