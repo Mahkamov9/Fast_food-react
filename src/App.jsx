@@ -1,4 +1,4 @@
-import './App.css';
+fjimport './App.css';
 import HomePage from './Pages/HomePage';
 
 function App() {
