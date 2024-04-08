@@ -1,4 +1,4 @@
-dncd ccimport './App.css';
+fhdncd ccimport './App.css';
 import HomePage from './Pages/HomePage';
 
 function App() {
