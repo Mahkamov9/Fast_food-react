@@ -1,4 +1,4 @@
-d ccimport './App.css';
+cd ccimport './App.css';
 import HomePage from './Pages/HomePage';
 
 function App() {
