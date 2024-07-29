@@ -1,4 +1,4 @@
-sadasddasasdasdasdasdasasdadsdfgasdimport Navbar from "../Navbar/Navbar"
+asdsadasddasasdasdasdasdasasdadsdfgasdimport Navbar from "../Navbar/Navbar"
 import "./Header.css"
 
 import IMG from "../../Assets/Img/hero-free-img.png";
