@@ -1,4 +1,4 @@
-import './App.css';
+djimport './App.css';
 import HomePage from './Pages/HomePage';
 
 function App() {
