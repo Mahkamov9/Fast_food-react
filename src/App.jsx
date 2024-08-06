@@ -1,4 +1,4 @@
-bfjfhfhhfhииолво import './App.css';
+gibfjfhfhhfhииолво import './App.css';
 import HomePage from './Pages/HomePage';
 
 function App() {
