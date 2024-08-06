@@ -1,4 +1,4 @@
-ииолво import './App.css';
+fhииолво import './App.css';
 import HomePage from './Pages/HomePage';
 
 function App() {
