@@ -1,4 +1,4 @@
-dhddhximport './App.css';
+dudhddhximport './App.css';
 import HomePage from './Pages/HomePage';
 
 function App() {
