@@ -1,4 +1,4 @@
-алалалтсосослалаорттлслаfhjfjfdjfhhdhnxnimportbcfjjf './App.css';
+гаалалалтсосослалаорттлслаfhjfjfdjfhhdhnxnimportbcfjjf './App.css';
 import HomePage from './Pages/HomePage';
 
 function App() {
