@@ -1,4 +1,4 @@
-fidhchfmchjdjhdnfnfcbfucjcjchchsh import './App.css';
+fjfidhchfmchjdjhdnfnfcbfucjcjchchsh import './App.css';
 import HomePage from './Pages/HomePage';
 
 function App() {
