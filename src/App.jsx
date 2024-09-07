@@ -1,4 +1,4 @@
-sbtibrulekyimport './App.css';
+jxgsbtibrulekyimport './App.css';
 import HomePage from './Pages/HomePage';
 
 function App() {
